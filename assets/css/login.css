@@ -1,0 +1,144 @@
+*
+{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    padding:0;
+    margin:0;
+    background: url(Login_Img.jpeg);
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-position:30%;
+    overflow: hidden;
+}
+
+/*.overlay{
+    background: rgba(241, 183, 8, 0.274);
+    position:absolute;
+    height:100%;
+    width:100%;
+    
+}*/
+
+section{
+    background: rgba(241, 183, 8, 0.274);
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height:100vh;
+    padding-top: 30%;
+    
+}
+
+.contentbox{
+    position: relative;
+    width:90%;
+    height:450px;
+    background: #ffffff9a;
+    margin:auto;
+    padding:5px;
+    border-radius: 3%;
+    text-align: center;
+    
+}
+h2{
+    font-size:30px;
+}
+.contentbox img{
+    object-position: center;
+    width:100%;
+    height: 160px;
+}
+
+.field{
+   width:90%;
+   height: 50px;
+   margin: 5%;
+   border-color: rgb(132, 128, 128);
+   border-radius: 5px;
+   padding-left: 5px;
+   text-align: left;
+}
+
+.btn{
+    width: 60%;
+    height: 45px;
+    background-color: #e3530a;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.btn:active{
+    background-color: #ca4b0b;
+}
+
+@media screen and (min-width: 500px) and (max-width: 640px){
+    .contentbox{
+        width: 75%;
+    } 
+}
+
+@media screen and (min-width: 640px) and (max-width: 900px){
+    section{
+        padding-top: 25%;
+    }
+    .contentbox{
+        width: 55%;
+        height: 500px;
+    } 
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    section{
+        padding: 10% 2%;
+    }
+    .contentbox{
+        width: 50%;
+        height:550px;
+        
+    } 
+}
+
+@media screen and (min-width: 1100px) {
+    section{
+        padding: 10% 2%;
+    }
+    .contentbox{
+        width: 35%;
+        height:550px;
+        
+    } 
+}
+
+
+
+
+/*.imgbox{
+    position: relative;
+    width:60%;
+    height:100%;
+}
+.imgbox:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(225deg,#f7a705,#da5010);
+    z-index:1;
+    mix-blend-mode: screen;
+}
+.imgbox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}*/
